@@ -13,7 +13,7 @@ python main.py --loss scaled_batch_cal
 There are currently 4 losses implemented: ["calibration loss"](https://arxiv.org/abs/2011.09588), 
 ["scaled calibration loss"](https://arxiv.org/abs/2011.09588),
 ["interval score"](https://arxiv.org/abs/2011.09588), and "qr", which is simply the pinball loss.
-The versions of the losses with the prefix "batch" means the code for calculating the loss is  
+The versions of the losses with the prefix "batch" means the code for calculating the loss is
 vectorized.
 
 
